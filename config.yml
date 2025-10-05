@@ -30,17 +30,6 @@ paths:
                         type: array
                         items:
                           type: object
-                          properties:
-                            ProductName:
-                              type: string
-                            ProductType:
-                              type: string
-                            Rate:
-                              type: number
-                            RevertingRate:
-                              type: number
-                            MaxLtv:
-                              type: number
       responses:
         "200":
           description: Successful import
